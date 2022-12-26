@@ -336,6 +336,7 @@ function App(props) {
   }
 
   const SearchLocaiton = () => {
+    setMarkers([]);
     // console.log(locationName);
     const request = {
       // location: mapConfig.center,
